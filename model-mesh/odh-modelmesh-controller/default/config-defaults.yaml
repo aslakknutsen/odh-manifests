@@ -49,3 +49,5 @@ serviceAccountName: "modelmesh-serving-sa"
 metrics:
   enabled: true
 payloadProcessors: ""
+runtimePodAnnotations:
+  opendatahub.io/service-mesh: "true"
