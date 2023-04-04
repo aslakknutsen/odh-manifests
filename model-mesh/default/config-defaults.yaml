@@ -49,3 +49,5 @@ storageHelperResources:
 serviceAccountName: "modelmesh-serving-sa"
 metrics:
   enabled: true
+runtimePodAnnotations:
+  opendatahub.io/service-mesh: "true"
