@@ -14,7 +14,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      control-plane: controller-manager
+      control-plane: odh-model-controller
   replicas: 1
   template:
     metadata:
