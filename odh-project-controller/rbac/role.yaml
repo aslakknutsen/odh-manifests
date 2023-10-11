@@ -73,3 +73,11 @@ rules:
   - patch
   - update
   - watch
+- apiGroups:
+  - config.openshift.io
+  resources:
+  - ingresses
+  verbs:
+  - get
+  - list
+  - watch
